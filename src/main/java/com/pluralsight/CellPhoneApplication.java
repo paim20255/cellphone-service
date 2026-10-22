@@ -27,8 +27,19 @@ public class CellPhoneApplication {
         CellPhone phoneNumber = new CellPhone();
         phoneNumber.setPhoneNumber("");
         String number = phoneNumber.getPhoneNumber();
+
         System.out.print("What is the phone number?: ");
         String phoneNumber2 = input.nextLine();
+
+        CellPhone phoneOwner = new CellPhone();
+        phoneOwner.setOwner("");
+        String owner = phoneOwner.getOwner();
+
+        System.out.print("Who is the owner of the phone?: ");
+        String owner2 = input.nextLine();
+
+        input.close();
+
 
 
 
