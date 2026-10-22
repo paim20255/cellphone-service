@@ -31,7 +31,13 @@ public class CellPhone {
     public String getCarrier() {
         return carrier;
     }
-    public  void setCarrier(String Carrier) {
+    public void setCarrier(String Carrier) {
         this.carrier = Carrier;
+    }
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

@@ -12,8 +12,8 @@ public class CellPhoneApplication {
         System.out.print("What is the serial number?: ");
         java.lang.String serialName = input.nextLine();
 
-        CellPhone cellPhone = new CellPhone();
-        cellPhone.setModel("");
+        CellPhone phone1 = new CellPhone();
+        phone1.setModel("");
         String phoneModel = phone.getModel();
         System.out.print("What model is the phone?: ");
         String typeModel = input.nextLine();
@@ -23,6 +23,12 @@ public class CellPhoneApplication {
         String carrier = phoneCarrier.getCarrier();
         System.out.print("Who is the carrier?: ");
         String nameCarrier = input.nextLine();
+
+        CellPhone phoneNumber = new CellPhone();
+        phoneNumber.setPhoneNumber("");
+        String number = phoneNumber.getPhoneNumber();
+        System.out.print("What is the phone number?: ");
+        String phoneNumber2 = input.nextLine();
 
 
 
