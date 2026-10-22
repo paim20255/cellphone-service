@@ -28,4 +28,10 @@ public class CellPhone {
     public void setModel (String model) {
         this.model = model;
     }
+    public String getCarrier() {
+        return carrier;
+    }
+    public  void setCarrier(String Carrier) {
+        this.carrier = Carrier;
+    }
 }

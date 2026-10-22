@@ -12,9 +12,15 @@ public class CellPhoneApplication {
         System.out.println("What is the serial number?: " + serialNumber);
 
         CellPhone cellPhone = new CellPhone();
-        cellPhone.setModel("Iphone 16 pro max!");
+        cellPhone.setModel("Iphone 15 pro max!");
         String phoneModel = phone.getModel();
         System.out.println("What model is the phone?: " + cellPhone.getModel());
+
+        CellPhone phoneCarrier = new CellPhone();
+        phoneCarrier.setCarrier("Verizon");
+        String carrier = phoneCarrier.getCarrier();
+        System.out.println("Who is the carrier?:  " + phoneCarrier.getCarrier());
+
 
 
 
