@@ -20,7 +20,6 @@ public class CellPhone {
     }
     public void setSerialNumber(int serialNumber) {
         this.serialNumber = serialNumber;
-
     }
     public String getModel () {
         return model;
